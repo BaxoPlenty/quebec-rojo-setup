@@ -1,0 +1,3 @@
+[submodule "quebec"]
+	path = quebec
+	url = https://github.com/BaxoPlenty/quebec.git
