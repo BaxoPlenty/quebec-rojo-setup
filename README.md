@@ -7,6 +7,7 @@ It’s meant as a starting point and is licensed under MIT - feel free to use, m
 
 -   This setup supports **single-place** projects
     -   There is a second branch called `multiplace` for projects that need more than one place
+-   This repository has some sample scripts, make sure to **remove these** once you get started!
 
 ## 🌳 Project Structure
 
