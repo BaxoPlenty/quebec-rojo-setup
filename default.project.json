@@ -1,28 +1,24 @@
 {
     "name": "main",
+    "emitLegacyScripts": false,
     "tree": {
         "$className": "DataModel",
 
         "ReplicatedStorage": {
-            "Shared": {
+            "client": {
+                "$path": "src/client"
+            },
+            "shared": {
                 "$path": "src/shared"
             },
-            "Quebec": {
+            "quebec": {
                 "$path": "quebec/default.project.json"
             }
         },
 
         "ServerScriptService": {
-            "Server": {
+            "server": {
                 "$path": "src/server"
-            }
-        },
-
-        "StarterPlayer": {
-            "StarterPlayerScripts": {
-                "Client": {
-                    "$path": "src/client"
-                }
             }
         }
     }
