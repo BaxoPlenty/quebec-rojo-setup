@@ -1,0 +1,38 @@
+{
+    "name": "main",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "CommonShared": {
+                "$path": "../common/src/shared"
+            },
+            "Shared": {
+                "$path": "src/shared"
+            },
+            "Quebec": {
+                "$path": "../../quebec/default.project.json"
+            }
+        },
+
+        "ServerScriptService": {
+            "CommonServer": {
+                "$path": "../common/src/server"
+            },
+            "Server": {
+                "$path": "src/server"
+            }
+        },
+
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "CommonClient": {
+                    "$path": "../common/src/client"
+                },
+                "Client": {
+                    "$path": "src/client"
+                }
+            }
+        }
+    }
+}
