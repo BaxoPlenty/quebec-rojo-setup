@@ -1,37 +1,33 @@
 {
     "name": "main",
+    "emitLegacyScripts": false,
     "tree": {
         "$className": "DataModel",
 
         "ReplicatedStorage": {
-            "CommonShared": {
+            "commonShared": {
                 "$path": "../common/src/shared"
             },
-            "Shared": {
+            "shared": {
                 "$path": "src/shared"
             },
-            "Quebec": {
+            "quebec": {
                 "$path": "../../quebec/default.project.json"
+            },
+            "commonClient": {
+                "$path": "../common/src/client"
+            },
+            "client": {
+                "$path": "src/client"
             }
         },
 
         "ServerScriptService": {
-            "CommonServer": {
+            "commonServer": {
                 "$path": "../common/src/server"
             },
-            "Server": {
+            "server": {
                 "$path": "src/server"
-            }
-        },
-
-        "StarterPlayer": {
-            "StarterPlayerScripts": {
-                "CommonClient": {
-                    "$path": "../common/src/client"
-                },
-                "Client": {
-                    "$path": "src/client"
-                }
             }
         }
     }

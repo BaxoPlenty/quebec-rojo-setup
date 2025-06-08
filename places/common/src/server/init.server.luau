@@ -1,6 +1,6 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-require(ReplicatedStorage.Quebec)(
+require(ReplicatedStorage:WaitForChild("quebec"))(
 	script,
-	{ config = ReplicatedStorage.CommonShared.quebecConfig, exportName = "common" }
+	{ config = ReplicatedStorage.commonShared.quebecConfig, exportName = "common" }
 )

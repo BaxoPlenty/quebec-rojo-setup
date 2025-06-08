@@ -8,6 +8,7 @@ It’s meant as a starting point and is licensed under MIT - feel free to use, m
 -   This setup supports both **multi-place** and **single-place** projects
     -   There is a second branch called `singleplace` for projects that will NEVER exceed one place
 -   Shared code is organized cleanly for easy reuse
+-   This repository has some sample scripts (`places/common` + `places/main`), make sure to **remove these** once you get started!
 
 ## 🌳 Project Structure
 
