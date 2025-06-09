@@ -15,6 +15,12 @@ It’s meant as a starting point and is licensed under MIT - feel free to use, m
 -   `quebec/` - local copy of the Quebec source code
 -   `default.project.json` - Rojo place configuration
 
+## 📥 Installation
+
+1. Simply clone this repository
+2. Clone the Quebec submodule with this command: `git submodule update --init --recursive`
+3. Enjoy!
+
 ## ♻️ Updating Quebec
 
 > After every update of Quebec, we recommend committing the change with: `Update Quebec to vX.Y.Z` where `vX.Y.Z` is the version/tag or branch you updated to.
