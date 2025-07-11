@@ -1,25 +1,25 @@
 {
-    "name": "main",
-    "emitLegacyScripts": false,
-    "tree": {
-        "$className": "DataModel",
+  "name": "main",
+  "emitLegacyScripts": false,
+  "tree": {
+    "$className": "DataModel",
 
-        "ReplicatedStorage": {
-            "client": {
-                "$path": "src/client"
-            },
-            "shared": {
-                "$path": "src/shared"
-            },
-            "quebec": {
-                "$path": "quebec/default.project.json"
-            }
-        },
+    "ReplicatedStorage": {
+      "client": {
+        "$path": "src/client"
+      },
+      "shared": {
+        "$path": "src/shared"
+      },
+      "Quebec": {
+        "$path": "quebec/default.project.json"
+      }
+    },
 
-        "ServerScriptService": {
-            "server": {
-                "$path": "src/server"
-            }
-        }
+    "ServerScriptService": {
+      "server": {
+        "$path": "src/server"
+      }
     }
+  }
 }
