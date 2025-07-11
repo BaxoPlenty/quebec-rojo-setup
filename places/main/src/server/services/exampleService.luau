@@ -5,7 +5,7 @@ local Service = Quebec.singleton({
 })
 
 function Service.start(self: typeof(Service))
-	print("hello from shared service")
+	print("Example service started!")
 end
 
 return Service

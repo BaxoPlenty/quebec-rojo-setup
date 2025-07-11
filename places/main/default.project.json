@@ -11,7 +11,7 @@
             "shared": {
                 "$path": "src/shared"
             },
-            "quebec": {
+            "Quebec": {
                 "$path": "../../quebec/default.project.json"
             },
             "commonClient": {

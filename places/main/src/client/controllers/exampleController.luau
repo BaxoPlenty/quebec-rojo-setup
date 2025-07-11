@@ -5,7 +5,7 @@ local Controller = Quebec.singleton({
 })
 
 function Controller.start(self: typeof(Controller))
-	print("hello from shared controller")
+	print("Example controller started!")
 end
 
 return Controller

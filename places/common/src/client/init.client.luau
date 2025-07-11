@@ -1,6 +1,3 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-require(ReplicatedStorage:WaitForChild("quebec"))(
-	script,
-	{ config = ReplicatedStorage.commonShared.quebecConfig, exportName = "common" }
-)
+require(game:GetService("ReplicatedStorage").Quebec).run(script.controllers, {
+	instances = { "main", "shared" },
+})
